@@ -1,0 +1,778 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- project title -->
+    <title>Home Interior</title>
+
+    <!-- favourite icone -->
+    <link rel="shortcut icon" href="./assets/img/fcbb713bddf3a2f226e5ee47b9a758a2.jpg" type="image/x-icon">
+
+    <!-- CSS link   -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Bootstrap 5 CDN Link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- Font awesome icons CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+</head>
+
+<body>
+
+    <header class="h-auto w-100"><!-- parentContainer -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light"><!-- componentContainer -->
+            <div class="container-fluid"><!-- row -->
+
+                <!-- Logo + Name -->
+                <a class="navbar-brand d-flex align-items-center me-5" href="#">
+                    <img src="./assets/img/fcbb713bddf3a2f226e5ee47b9a758a2.jpg" alt="Logo" width="40" height="40"
+                        class="me-3 ms-5">
+                    <span class="text-dark">Home Interior</span>
+                </a>
+
+                <!-- Search box (right after brand) -->
+                <form class="d-flex me-auto" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search">
+                    <button class="btn btn-outline-dark" type="submit">Search</button>
+                </form>
+
+                <!-- Toggler (for mobile view) -->
+                <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- 🏠 Navigation links -->
+                <div class="collapse navbar-collapse" id="navbarContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 me-5">
+
+                        <!-- Home -->
+                        <li class="nav-item ms-2">
+                            <a class="nav-link text-dark" href="#">Home</a>
+                        </li>
+
+                        <!-- About -->
+                        <li class="nav-item ms-2">
+                            <a class="nav-link text-dark" href="#">About Us</a>
+                        </li>
+
+                        <!-- Services -->
+                        <li class="nav-item dropdown ms-2">
+                            <a class="nav-link dropdown-toggle text-dark" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Services
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Interior Design</a></li>
+                                <li><a class="dropdown-item" href="#">Modular Kitchen</a></li>
+                                <li><a class="dropdown-item" href="#">Furniture & Decor</a></li>
+                                <li><a class="dropdown-item" href="#">Lighting Solutions</a></li>
+                            </ul>
+                        </li>
+
+                        <!-- Gallery -->
+                        <li class="nav-item dropdown ms-2">
+                            <a class="nav-link dropdown-toggle text-dark" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Gallery
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Living Rooms</a></li>
+                                <li><a class="dropdown-item" href="#">Bedrooms</a></li>
+                                <li><a class="dropdown-item" href="#">Bathrooms</a></li>
+                                <li><a class="dropdown-item" href="#">Dining Spaces</a></li>
+                            </ul>
+                        </li>
+
+                        <!-- Projects -->
+                        <li class="nav-item dropdown ms-2">
+                            <a class="nav-link dropdown-toggle text-dark" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Projects
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Residential</a></li>
+                                <li><a class="dropdown-item" href="#">Commercial</a></li>
+                                <li><a class="dropdown-item" href="#">Renovation</a></li>
+                            </ul>
+                        </li>
+
+                        <!-- Contact -->
+                        <li class="nav-item ms-2">
+                            <a class="nav-link text-dark" href="#">Contact</a>
+                        </li>
+
+                    </ul>
+                </div>
+
+            </div>
+        </nav>
+
+        <!-- carousel -->
+        <div class="carousel py-2"><!-- component -->
+            <div class="container-fluid"><!-- componentContainer -->
+                <div class="row"><!-- row -->
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 "><!-- column -->
+                        <div class="h-100 w-100"><!-- subcolumn -->
+
+                            <div id="heroCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+
+                                <!-- Indicators -->
+                                <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0"
+                                        class="active"></button>
+                                    <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1"></button>
+                                    <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2"></button>
+                                    <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="3"></button>
+                                    <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="4"></button>
+                                </div>
+
+                                <!-- Slides -->
+                                <div class="carousel-inner">
+
+                                    <!-- Slide 1 -->
+                                    <div class="carousel-item active" data-bs-interval="3000">
+                                        <img src="./assets/img/slide1.jpg" class="d-block w-100 carousel-img"
+                                            alt="Slide 1">
+                                        <div class="carousel-caption">
+                                            <h5>Modern Living Room</h5>
+                                            <p>Experience comfort and style in every corner of your home.</p>
+
+                                        </div>
+                                    </div>
+
+                                    <!-- Slide 2 -->
+                                    <div class="carousel-item" data-bs-interval="3000">
+                                        <img src="./assets/img/slide2.avif" class="d-block w-100 carousel-img"
+                                            alt="Slide 2">
+                                        <div class="carousel-caption">
+                                            <h5>Cozy Bedroom Vibes</h5>
+                                            <p>Soft textures and warm tones for peaceful nights.</p>
+                                        </div>
+                                    </div>
+
+                                    <!-- Slide 3 -->
+                                    <div class="carousel-item" data-bs-interval="3000">
+                                        <img src="./assets/img/slide3.jpg" class="d-block w-100 carousel-img"
+                                            alt="Slide 3">
+                                        <div class="carousel-caption">
+                                            <h5>Elegant Dining Spaces</h5>
+                                            <p>Where beautiful design meets unforgettable meals.</p>
+
+                                        </div>
+                                    </div>
+
+                                    <!-- Slide 4 -->
+                                    <div class="carousel-item" data-bs-interval="3000">
+                                        <img src="./assets/img/slide4.webp" class="d-block w-100 carousel-img"
+                                            alt="Slide 4">
+                                        <div class="carousel-caption">
+                                            <h5>Luxury Bathroom Design</h5>
+                                            <p>Modern elegance with a touch of simplicity and calm.</p>
+                                        </div>
+                                    </div>
+
+                                    <!-- Slide 5 -->
+                                    <div class="carousel-item" data-bs-interval="3000">
+                                        <img src="./assets/img/slide5.jpg" class="d-block w-100 carousel-img"
+                                            alt="Slide 5">
+                                        <div class="carousel-caption">
+                                            <h5>Natural Home Aesthetics</h5>
+                                            <p>Bring nature indoors with soothing colors and textures.</p>
+
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <!-- Controls -->
+                                <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel"
+                                    data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel"
+                                    data-bs-slide="next">
+                                    <span class="carousel-control-next-icon"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </header>
+
+
+    <main><!-- parentContainer -->
+
+        <!-- ====== Furniture Design SECTION ====== -->
+
+        <section class="card-section  py-4"><!-- component -->
+            <div class="container"><!-- componentContainer -->
+                <div class="row "><!-- row -->
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 "><!-- column -->
+                        <div class="h-100 w-100 "><!-- subcolumn -->
+                            <!-- Title -->
+                            <h1 class="text-center mb-4">Furniture Design</h1>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Row 2: Cards -->
+                <div class="row g-3"><!-- row -->
+
+                    <!-- Card 1 -->
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 "><!-- column -->
+                        <div class="card  h-100 w-100 card-hover"><!-- subcolumn -->
+                            <img src="./assets/img/card1.avif" class="card-img-top" alt="Luffy">
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title mb-2">Modern Living Sofa Set</h5>
+                                <p class="card-text mb-3">A cozy and elegant sofa crafted to bring comfort and
+                                    sophistication to your living room.</p>
+                                <a href="#" class="btn btn-primary mt-auto">View Design</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 2 -->
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3"><!-- column -->
+                        <div class="card h-100 w-100 card-hover"><!-- subcolumn -->
+                            <img src="./assets/img/card2.webp" class="card-img-top" alt="Zoro">
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title mb-2">Minimalist Wooden Table</h5>
+                                <p class="card-text mb-3">Handcrafted teak wood table designed for durability and
+                                    timeless style.</p>
+                                <a href="#" class="btn btn-primary mt-auto">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 3 -->
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3"><!-- column -->
+                        <div class="card h-100 w-100 card-hover"><!-- subcolumn -->
+                            <img src="./assets/img/cadr3.jpg" class="card-img-top" alt="Sanji">
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title mb-2">Classic Lounge Chair</h5>
+                                <p class="card-text mb-3">Relax in style with our signature lounge chair, built with
+                                    comfort and grace in mind.</p>
+                                <a href="#" class="btn btn-primary mt-auto">See Details</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 4 -->
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3"><!-- column -->
+                        <div class="card h-100 w-100 card-hover"><!-- subcolumn -->
+                            <img src="./assets/img/card4.jpg" class="card-img-top" alt="Nami">
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title mb-2">Luxury Bedroom Wardrobe</h5>
+                                <p class="card-text mb-3">A sleek wardrobe design that combines modern storage with
+                                    aesthetic appeal.</p>
+                                <a href="#" class="btn btn-primary mt-auto">Explore More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- end row -->
+
+            </div><!-- end container -->
+        </section>
+
+
+
+        <!-- ====== House Plans,Design SECTION ====== -->
+
+        <section class="card-carousel py-4"><!-- component -->
+            <div class="container"><!-- componentContainer -->
+                <div class="row"><!-- row -->
+                    <div class="col-12"><!-- column -->
+                        <div class="h-100 w-100"><!-- subcolumn -->
+                            <!-- Title -->
+                            <h1 class="text-center mb-4">House Plans,Design</h1>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="cardCarousel" class="carousel slide" data-bs-ride="false">
+                    <div class="carousel-inner">
+
+                        <!-- SLIDE 1 -->
+                        <div class="carousel-item active">
+                            <div class="row g-3">
+
+                                <!-- Card 1 -->
+                                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                                    <div class="card h-100 w-100 card-hover">
+                                        <img src="./assets/img/design1.jpg" class="card-img-top"
+                                            alt="Elegant Living Room">
+                                        <div class="card-body d-flex flex-column">
+                                            <h5 class="card-title mb-2">Elegant Living Room</h5>
+                                            <p class="card-text mb-3">
+                                                Soft lighting and plush seating create a welcoming, sophisticated
+                                                atmosphere.
+                                            </p>
+                                            <button class="btn btn-primary mt-auto">View Room</button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Card 2 -->
+                                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                                    <div class="card h-100 w-100 card-hover">
+                                        <img src="./assets/img/design2.jpg" class="card-img-top"
+                                            alt="Luxury Kitchen Space">
+                                        <div class="card-body d-flex flex-column">
+                                            <h5 class="card-title mb-2">Luxury Kitchen Space</h5>
+                                            <p class="card-text mb-3">
+                                                A perfect blend of functionality and beauty with modern modular
+                                                cabinetry.
+                                            </p>
+                                            <button class="btn btn-primary mt-auto">Explore Kitchen</button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Card 3 -->
+                                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                                    <div class="card h-100 w-100 card-hover">
+                                        <img src="./assets/img/design3.jpg" class="card-img-top"
+                                            alt="Cozy Bedroom Retreat">
+                                        <div class="card-body d-flex flex-column">
+                                            <h5 class="card-title mb-2">Cozy Bedroom Retreat</h5>
+                                            <p class="card-text mb-3">
+                                                Warm tones and minimal design make your bedroom a space for ultimate
+                                                relaxation.
+                                            </p>
+                                            <button class="btn btn-primary mt-auto">View Bedroom</button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Card 4 -->
+                                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                                    <div class="card h-100 w-100 card-hover">
+                                        <img src="./assets/img/design4.jpg" class="card-img-top"
+                                            alt="Contemporary Dining Area">
+                                        <div class="card-body d-flex flex-column">
+                                            <h5 class="card-title mb-2">Contemporary Dining Area</h5>
+                                            <p class="card-text mb-3">
+                                                A modern dining setup that turns everyday meals into a stylish
+                                                experience.
+                                            </p>
+                                            <button class="btn btn-primary mt-auto">See Dining</button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <!-- SLIDE 2 -->
+                        <div class="carousel-item">
+                            <div class="row g-3">
+
+                                <!-- Card 5 -->
+                                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                                    <div class="card h-100 w-100 card-hover">
+                                        <img src="./assets/img/design5.jpg" class="card-img-top"
+                                            alt="Artistic Wall Decor">
+                                        <div class="card-body d-flex flex-column">
+                                            <h5 class="card-title mb-2">Artistic Wall Decor</h5>
+                                            <p class="card-text mb-3">
+                                                Add personality to your space with bold and creative wall art ideas.
+                                            </p>
+                                            <button class="btn btn-primary mt-auto">Discover Art</button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Card 6 -->
+                                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                                    <div class="card h-100 w-100 card-hover">
+                                        <img src="./assets/img/design2.jpg" class="card-img-top"
+                                            alt="Scandinavian Workspace">
+                                        <div class="card-body d-flex flex-column">
+                                            <h5 class="card-title mb-2">Scandinavian Workspace</h5>
+                                            <p class="card-text mb-3">
+                                                Minimal, airy design that helps you focus and stay inspired at work.
+                                            </p>
+                                            <button class="btn btn-primary mt-auto">View Setup</button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Card 7 -->
+                                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                                    <div class="card h-100 w-100 card-hover">
+                                        <img src="./assets/img/design3.jpg" class="card-img-top"
+                                            alt="Rustic Kitchen Charm">
+                                        <div class="card-body d-flex flex-column">
+                                            <h5 class="card-title mb-2">Rustic Kitchen Charm</h5>
+                                            <p class="card-text mb-3">
+                                                Natural wood and neutral palettes create a calm, homely kitchen vibe.
+                                            </p>
+                                            <button class="btn btn-primary mt-auto">Explore Design</button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Card 8 -->
+                                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                                    <div class="card h-100 w-100 card-hover">
+                                        <img src="./assets/img/design4.jpg" class="card-img-top"
+                                            alt="Open Concept Living">
+                                        <div class="card-body d-flex flex-column">
+                                            <h5 class="card-title mb-2">Open Concept Living</h5>
+                                            <p class="card-text mb-3">
+                                                Seamlessly blend spaces for a bright, connected home interior feel.
+                                            </p>
+                                            <button class="btn btn-primary mt-auto">Learn More</button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Controls -->
+                    <button class="carousel-control-prev" type="button" data-bs-target="#cardCarousel"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#cardCarousel"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- ====== Floor Design Section ====== -->
+
+        <section class="floor-designs py-5">
+            <div class="container">
+                <h1 class="text-center mb-4">Floor Design Showcase</h1>
+                <div class="row ">
+
+                    <!-- Floor 1 -->
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="floor-tile position-relative overflow-hidden rounded-4 shadow">
+                            <img src="./assets/img/floor1.jpg" class="img-fluid" alt="Ground Floor">
+                            <div
+                                class="overlay d-flex flex-column justify-content-center align-items-center text-white">
+                                <h5>Ground Floor</h5>
+                                <p>Open concept living area with a modern touch.</p>
+                                <a href="#" class="btn btn-light btn-sm">View Layout</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Floor 2 -->
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="floor-tile position-relative overflow-hidden rounded-4 shadow">
+                            <img src="./assets/img/floor2.jpg" class="img-fluid" alt="First Floor">
+                            <div
+                                class="overlay d-flex flex-column justify-content-center align-items-center text-white">
+                                <h5>First Floor</h5>
+                                <p>Luxury bedroom and balcony setup for comfort.</p>
+                                <a href="#" class="btn btn-light btn-sm">View Layout</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Floor 3 -->
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="floor-tile position-relative overflow-hidden rounded-4 shadow">
+                            <img src="./assets/img/floor3.jpg" class="img-fluid" alt="Second Floor">
+                            <div
+                                class="overlay d-flex flex-column justify-content-center align-items-center text-white">
+                                <h5>Second Floor</h5>
+                                <p>Entertainment area with cozy interiors.</p>
+                                <a href="#" class="btn btn-light btn-sm">View Layout</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Floor 4 -->
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="floor-tile position-relative overflow-hidden rounded-4 shadow">
+                            <img src="./assets/img/floor4.jpg" class="img-fluid" alt="Terrace Floor">
+                            <div
+                                class="overlay d-flex flex-column justify-content-center align-items-center text-white">
+                                <h5>Terrace Floor</h5>
+                                <p>Beautiful rooftop garden and seating area.</p>
+                                <a href="#" class="btn btn-light btn-sm">View Layout</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+        <!-- ====== Home Theater 1.SECTION  ====== -->
+
+        <section class="home-theater py-5">
+            <div class="container text-center">
+                <h2 class="mb-4">Home Theater Designs</h2>
+                <p class="lead text-muted mb-5">Immerse yourself in cinematic experiences right inside your home.</p>
+
+                <div class="row g-4">
+                    <div class="col-md-4">
+                        <div class="theater-card">
+                            <img src="./assets/img/card5.jpg" alt="Modern Luxury Theater" class="img-fluid">
+                            <div class="theater-overlay">
+                                <h5>Luxury Cinema Room</h5>
+                                <p>Elegant lighting and recliner seating for a true movie-night vibe.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="theater-card">
+                            <img src="./assets/img/card6.jpg" alt="Minimalist Setup" class="img-fluid">
+                            <div class="theater-overlay">
+                                <h5>Minimalist Design</h5>
+                                <p>Compact yet powerful, optimized for comfort and sound clarity.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="theater-card">
+                            <img src="./assets/img/card7.jpg" alt="Family Theater Room" class="img-fluid">
+                            <div class="theater-overlay">
+                                <h5>Family Entertainment Room</h5>
+                                <p>Designed for comfort, laughter, and unforgettable moments.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- ====== Home Theater 2.SECTION ====== -->
+
+        <section class="card-section  py-5"><!-- component -->
+            <div class="container"><!-- componentContainer -->
+                <div class="row"><!-- row -->
+                    <div class="col-12"><!-- column -->
+                        <div class="h-100 w-100"><!-- subcolumn -->
+                            <!-- Title -->
+                            <h1 class="text-center mb-4">Home Theater</h1>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Row 2: Cards -->
+                <div class="row g-3"><!-- row -->
+
+                    <!-- Card 5 -->
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3"><!-- column -->
+                        <div class="card h-100 w-100 card-hover"><!-- subcolumn -->
+                            <img src="./assets/img/card5.jpg" class="card-img-top" alt="Compact Home Theater Setup">
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title mb-2">Compact Home Theater Setup</h5>
+                                <p class="card-text mb-3">
+                                    Transform your living space into a private cinema with immersive sound and lighting.
+                                </p>
+                                <a href="#" class="btn btn-primary mt-auto">View Setup</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 6 -->
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3"><!-- column -->
+                        <div class="card h-100 w-100 card-hover"><!-- subcolumn -->
+                            <img src="./assets/img/card6.jpg" class="card-img-top" alt="Luxury Recliner Seating">
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title mb-2">Luxury Recliner Seating</h5>
+                                <p class="card-text mb-3">
+                                    Experience ultimate relaxation with soft leather recliners built for comfort.
+                                </p>
+                                <a href="#" class="btn btn-primary mt-auto">Try Now</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 7 -->
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3"><!-- column -->
+                        <div class="card h-100 w-100 card-hover"><!-- subcolumn -->
+                            <img src="./assets/img/card7.jpg" class="card-img-top" alt="Smart Lighting Ambience">
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title mb-2">Smart Lighting Ambience</h5>
+                                <p class="card-text mb-3">
+                                    Set the perfect mood for movie nights with customizable smart LED lighting.
+                                </p>
+                                <a href="#" class="btn btn-primary mt-auto">Adjust Lighting</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 8 -->
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3"><!-- column -->
+                        <div class="card h-100 w-100 card-hover"><!-- subcolumn -->
+                            <img src="./assets/img/card8.jpg" class="card-img-top" alt="Acoustic Wall Panels">
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title mb-2">Acoustic Wall Panels</h5>
+                                <p class="card-text mb-3">
+                                    Enhance sound clarity and reduce noise with stylish acoustic wall panels.
+                                </p>
+                                <a href="#" class="btn btn-primary mt-auto">Know More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- end row -->
+            </div><!-- end container -->
+        </section>
+
+
+        <!-- ====== Light Design SECTION ====== -->
+
+        <section class="lighting-tabs py-5">
+            <div class="container">
+                <h2 class="text-center mb-4">Lighting by Room</h2>
+
+                <ul class="nav nav-tabs justify-content-center" id="lightTab" role="tablist">
+                    <li class="nav-item"><a class="nav-link active" data-bs-toggle="tab" href="#bedroom">Bedroom</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#living">Living</a></li>
+                    <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#kitchen">Kitchen</a></li>
+                    <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#outdoor">Outdoor</a></li>
+                </ul>
+
+                <div class="tab-content mt-4">
+                    <div class="tab-pane fade show active" id="bedroom">
+                        <div class="row align-items-center">
+                            <div class="col-md-6">
+                                <img src="./assets/img/light3.jpg" class="img-fluid rounded shadow"
+                                    alt="Bedroom Lights">
+                            </div>
+                            <div class="col-md-6">
+                                <h3>Cozy Bedroom Lighting</h3>
+                                <p>Soft ambient lights create warmth and comfort, perfect for relaxing evenings.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tab-pane fade" id="living">
+                        <div class="row align-items-center">
+                            <div class="col-md-6">
+                                <img src="./assets/img/light2.webp" class="img-fluid rounded shadow"
+                                    alt="Living Room Lights">
+                            </div>
+                            <div class="col-md-6">
+                                <h3>Modern Living Room Glow</h3>
+                                <p>Combine chandeliers with accent lamps for a welcoming and stylish atmosphere.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tab-pane fade" id="kitchen">
+                        <div class="row align-items-center">
+                            <div class="col-md-6">
+                                <img src="./assets/img/light1.webp" class="img-fluid rounded shadow"
+                                    alt="Kitchen Lights">
+                            </div>
+                            <div class="col-md-6">
+                                <h3>Functional Kitchen Lighting</h3>
+                                <p>Bright and efficient lighting makes cooking and dining both easy and elegant.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tab-pane fade" id="outdoor">
+                        <div class="row align-items-center">
+                            <div class="col-md-6">
+                                <img src="./assets/img/light4.jpg" class="img-fluid rounded shadow"
+                                    alt="Outdoor Lights">
+                            </div>
+                            <div class="col-md-6">
+                                <h3>Outdoor Ambience</h3>
+                                <p>Illuminate pathways and patios with subtle lighting for evening gatherings.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+    </main>
+
+    <footer><!-- parentContainer -->
+        <div class="container my-5">
+            <div class="row align-items-center">
+                <!-- Left Side: Welcome / Image -->
+                <div class="col-lg-6 d-none d-lg-block left-panel text-white p-5">
+                    <h2 class="fw-bold">Welcome to DreamSpace Interiors</h2>
+                    <p class="mt-3">
+                        Transform your home with premium designs crafted to reflect your personality.
+                    </p>
+                    <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c"
+                        class="img-fluid rounded shadow" alt="Interior Design">
+                </div>
+
+                <!-- Right Side: Form -->
+                <div class="col-12 col-lg-6">
+                    <div class="shadow rounded bg-white border border-dark px-4 py-3">
+                        <h2 class="mb-4 text-center fw-bold">Create your account</h2>
+                        <form>
+                            <div class="mb-3">
+                                <label for="fullName" class="form-label fw-bold">Full Name</label>
+                                <input type="text" class="form-control" id="fullName"
+                                    placeholder="Enter your full name">
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold">Email Address</label>
+                                <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                            </div>
+                            <div class="mb-3">
+                                <label for="message" class="form-label fw-bold">Message</label>
+                                <textarea class="form-control" id="message" rows="4"
+                                    placeholder="Write your message here..."></textarea>
+                            </div>
+                            <div class="form-check mb-3">
+                                <input class="form-check-input" type="checkbox" id="newsletter">
+                                <label class="form-check-label" for="newsletter">Subscribe to our newsletter</label>
+                            </div>
+                            <div class="d-flex gap-3">
+                                <button type="reset" class="btn btn-info text-white fw-bold">Reset</button>
+                                <button type="submit" class="btn btn-dark fw-bold">Submit</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        
+
+        <div class="text-center py-3 bg-dark text-light">© 2025 Home Interior</div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

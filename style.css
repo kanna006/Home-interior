@@ -10,35 +10,6 @@ form.d-flex {
 }
 
 
-/* ====== Navigation links ======*/
-
-
-/* 🌟 Default link color - orange */
-.navbar-nav .nav-link {
-  color: #ff7b00 !important; /* bright orange */
-  font-weight: 500;
-  font-family: "Poppins", sans-serif;
-  transition: color 0.3s ease, transform 0.2s ease;
-}
-
-/* ✨ On hover - darker orange and slight scale effect */
-.navbar-nav .nav-link:hover {
-  color: #e56700 !important;
-  transform: scale(1.05);
-}
-
-/* 🔽 Dropdown menu link style */
-.dropdown-menu .dropdown-item {
-  color: #333;
-  transition: background-color 0.3s, color 0.3s;
-}
-
-/* 🟧 Dropdown hover effect */
-.dropdown-menu .dropdown-item:hover {
-  background-color: #ff7b00;
-  color: #fff;
-}
-
 
 
 
@@ -91,7 +62,7 @@ form.d-flex {
 .carousel-caption h5 {
     font-size: clamp(1.2rem, 2.8vw, 2.5rem);
     font-weight: bold;
-    color: lab(84.59% -4.32 82.96);
+    color: #ffff;
     text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
     margin-bottom: 0.5rem;
 }
